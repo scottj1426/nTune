@@ -536,32 +536,51 @@
     <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <h2>Contact </h2>
         </div>
 
         <div class="row contact-info">
 
         
 
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
               <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-md-4">
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:ntunellc@myntune.com">ntunellc@myntune.com</a></p>
             </div>
           </div>
 
         </div>
       </div>
+      <form name="contact" method="POST" action="success" netlify>
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
 
       <!-- <div id="google-map" data-latitude="41.881832" data-longitude="-87.623177"></div>
 
