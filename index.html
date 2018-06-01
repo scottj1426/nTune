@@ -60,15 +60,13 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="fa fa-phone"></i> +1 5589 55488 55
+        <i class="fa fa-envelope-o"></i> <a href="mailto:ntunellc@myntune.com">ntunellc@myntune.com</a>
       </div>
       <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        
+        <a href="https://www.facebook.com/NTune-1174437639326618/" class="facebook"><i class="fa fa-facebook" target="_blank"></i></a>
+        <a href="https://www.instagram.com/ntune_llc/" class="instagram"><i class="fa fa-instagram" target="_blank"></i></a>
+       
       </div>
     </div>
   </section>
@@ -456,7 +454,7 @@
     <!--==========================
       Our Team Section
     ============================-->
-    <section id="team" class="wow fadeInUp">
+    <!-- <section id="team" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Our Team</h2>
@@ -528,7 +526,7 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section>#team -->
 
     <!--==========================
       Contact Section
@@ -536,7 +534,7 @@
     <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Contact </h2>
+          <h2>Contact Us </h2>
         </div>
 
         <div class="row contact-info">
@@ -550,7 +548,7 @@
               <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
             </div>
           </div> -->
-
+<!-- 
           <div class="col-md-4">
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
@@ -559,28 +557,24 @@
             </div>
           </div>
 
-        </div>
+        </div> -->
+        <form class="form-style" name="contact" method="POST" netlify>
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
       </div>
-      <form name="contact" method="POST" action="success" netlify>
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
+
+
 
       <!-- <div id="google-map" data-latitude="41.881832" data-longitude="-87.623177"></div>
 
@@ -609,7 +603,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
+        &copy; Copyright <strong>Ntune</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
